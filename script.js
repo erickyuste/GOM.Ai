@@ -88,7 +88,7 @@ const handleOutgoingMessage = (e) => {
     setTimeout(() => {
        const messageContent = `<div class="message-text z-100 text-sm md:text-md flex my-6 border-3 rounded-xl p-3 mx-3 md:mx-0 md:p-6 border-dashed bg-[#e5e7eb] h-auto">
                 <div class="card">
-                    <div class="loader">
+                    <div class="loader text-[20px] md:text-[25px]">
                         <p>loading</p>
                         <div class="words">
                         <span class="word">Responsibility</span>
